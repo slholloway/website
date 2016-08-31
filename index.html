@@ -1,24 +1,60 @@
 ---
-layout: default
+title: Dopetrope
+layout: landing
 ---
+  
+	<body class="homepage">
+	{% include header_landing.html %}
 
-<div class="header-bar">
-  <h1>Shannon Holloway</h1>
-  <h2>Research + Design</h2>
-  <br/>
-  <hr>
-  <br/>
-</div>
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
 
-
-<ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
-</ul>
+							<!-- Portfolio -->
+								<section>
+									<header class="major">
+										<h2>Featured Projects</h2>
+									</header>
+									<div class="row">
+										<div class="4u">
+											<section class="box">
+												<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/nyc-darkblue.png" alt="" /></a>
+												<header>
+													<h3>Mayor's Office of Operations</h3>
+												</header>
+												<p>Service designer and researcher for a digital equity initiative and pilot Service Design Lab to improve services for low and middle-income New Yorkers.</p>
+												<footer>
+													<a href="#" class="button">More</a>
+												</footer>
+											</section>
+										</div>
+										<div class="4u">
+											<section class="box">
+												<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/dentists-374x260.jpg" alt="" /></a>
+												<header>
+													<h3>NYU Dentistry</h3>
+												</header>
+												<p>Field research and ergonomic analysis of dental students in a clinical environment identifying risks and design recommendations.</p>
+												<footer>
+													<a href="#" class="button">More</a>
+												</footer>
+											</section>
+										</div>
+										<div class="4u">
+											<section class="box">
+												<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/psoc-children.jpg" alt="" /></a>
+												<header>
+													<h3>Pearson System of Courses</h3>
+												</header>
+												<p>As UX Lead I oversaw design in each stage of the product design cycle for the Pearson System of Courses K1 and 2-12 apps for iOS and Win8 tablets.</p>
+												<footer>
+													<a href="#" class="button">More</a>
+												</footer>
+											</section>
+										</div>
+									</div>
+								</section>
+						</div>
+					</div>

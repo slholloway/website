@@ -1,0 +1,43 @@
+<!-- Header -->
+	<div id="header-wrapper">
+		<div id="header">
+
+			<!-- Logo -->
+				<h1 id="header-title"><a href="{{ site.baseurl }}/index.html">Shannon Holloway</a></h1>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<!-- <li>
+							<a href="">Dropdown</a>
+							<ul>
+								<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+								<li><a href="#">Magna phasellus</a></li>
+								<li><a href="#">Etiam dolore nisl</a></li>
+								<li>
+									<a href="">Phasellus consequat</a>
+									<ul>
+										<li><a href="#">Magna phasellus</a></li>
+										<li><a href="#">Etiam dolore nisl</a></li>
+										<li><a href="#">Veroeros feugiat</a></li>
+										<li><a href="#">Nisl sed aliquam</a></li>
+										<li><a href="#">Dolore adipiscing</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Veroeros feugiat</a></li>
+							</ul>
+						</li> -->
+						{% assign current = page.url | downcase | split: '/' %}
+						<!-- <li><a href="{{ site.baseurl }}/blog">Blog</a></li> -->
+						<li {% if current[1] == 'portfolio.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/portfolio.html">PORTFOLIO</a></li>
+						<li {% if current[1] == '/blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">BLOG</a></li>
+						<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">ABOUT</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-img">
+					<img src="{{ site.baseurl }}/assets/images/header-crop.jpg">
+				</div>
+
+		</div>
+	</div>

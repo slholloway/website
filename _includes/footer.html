@@ -1,7 +1,128 @@
-<footer class="site-footer">
+		<!-- Footer -->
+			<div id="footer-wrapper">
+				<section id="footer" class="container">
+					<div class="row">
+						<div class="8u">
+							<section>
+								<header>
+									<h2>Recent posts</h2>
+								</header>
+								<ul class="dates">
+								{% for post in site.posts offset: 0 limit: 3 %}
+									<li>
+										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
+										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+										{{ post.excerpt }}
+									</li>
+								{% endfor %}
+								</ul>
+							</section>
+						</div>
+						<div class="4u">
+							<section>
+								<header>
+									<h2>About</h2>
+								</header>
+								<a href="{{ site.baseurl }}/about" class="image featured"><img src="{{ site.baseurl }}/assets/images/inti-headshot.jpg" alt="" /></a>
+								<p>
+									Shannon Holloway is a designer and researcher based in Brooklyn, NY. 
+								</p>
+							</section>
+							<section>
+								<header>
+									<h2>Contact</h2>
+								</header>
+								<ul class="social">
+									<li><a class="icon fa-envelope" href="mailto:info@shannonholloway.com"><span class="label">Email</span></a></li>
+									<li><a class="icon fa-linkedin" href="https://www.linkedin.com/in/shannonholloway"><span class="label">LinkedIn</span></a></li>
+									<li><a class="icon fa-github" href="https://github.com/hybridartist"><span class="label">GitHub</span></a></li>
+									<li><a class="icon fa-google-plus" href="https://plus.google.com/+ShannonHolloway"><span class="label">Google+</span></a></li>
+									<li><a class="icon fa-twitter" href="https://twitter.com/s_holloway"><span class="label">Twitter</span></a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<!-- <div class="row">
+						 <div class="4u">
+							<section>
+								<header>
+									<h2>Tempus consequat</h2>
+								</header>
+								<ul class="divided">
+									<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
+									<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
+									<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
+									<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
+									<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+									<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+								</ul>
+							</section>
+						</div> 
+						<div class="4u">
+							<section>
+								<header>
+									<h2>Ipsum et phasellus</h2>
+								</header>
+								<ul class="divided">
+									<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
+									<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
+									<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
+									<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
+									<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+									<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+								</ul>
+							</section>
+						</div> -->
+						<!-- <div class="4u">
+							<section>
+								<header>
+									<h2>Contact</h2>
+								</header>
+								<ul class="social">
+									<li><a class="icon fa-envelope" href="mailto:info@shannonholloway.com"><span class="label">Email</span></a></li>
+									<li><a class="icon fa-linkedin" href="https://www.linkedin.com/in/shannonholloway"><span class="label">LinkedIn</span></a></li>
+									<li><a class="icon fa-github" href="https://github.com/hybridartist"><span class="label">GitHub</span></a></li>
+									<li><a class="icon fa-google-plus" href="https://plus.google.com/+ShannonHolloway"><span class="label">Google+</span></a></li>
+									<li><a class="icon fa-twitter" href="https://twitter.com/s_holloway"><span class="label">Twitter</span></a></li>
+								</ul>
+								 <ul class="contact">
+									 <li>
+										<h3>Email</h3>
+										<p><a href="#">info@shannonholloway.com</a></p>
+									</li>
+									<li>
+										<h3>Address</h3>
+										<p>
+											Untitled Incorporated<br />
+											1234 Somewhere Road Suite<br />
+											Nashville, TN 00000-0000
+										</p>
+									</li>
+									
+									<li>
+										<h3>Phone</h3>
+										<p>(800) 000-0000</p>
+									</li> 
+								</ul> 
+							</section>
+						</div>
+					</div> -->
+					<div class="row">
+						<div class="12u">
 
-  <div class="wrapper">
-  	<p>&#169; 2016 Shannon Holloway. This site was built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and is hosted on <a href="https://github.com" target="_blank">Github</a>.</p>
-  </div>
+							<!-- Copyright -->
+								<div id="copyright">
+									<ul class="links">
+										<li>&copy; 2016 Shannon Holloway</li>
+										<li> Built with <a href="https://jekyllrb.com/">Jekyll</a></li>
+										<li>Theme by <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
 
-</footer>
+						</div>
+					</div>
+				</section>
+			</div>
+
+	</body>
+</html>
