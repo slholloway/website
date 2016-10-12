@@ -1,4 +1,5 @@
 name: Shannon Holloway
 description: Shannon Holloway is a designer and researcher based in Brooklyn NY.
+gems: [jekyll-paginate]
 paginate: 5
 baseurl: ''
