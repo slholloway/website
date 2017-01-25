@@ -30,7 +30,7 @@
 						{% assign current = page.url | downcase | split: '/' %}
 						<!-- <li><a href="{{ site.baseurl }}/blog">Blog</a></li> -->
 						<li {% if current[1] == 'portfolio.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/portfolio.html">PORTFOLIO</a></li>
-						<li {% if current[1] == 'projects.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/projects.html">PROJECTS</a></li>
+						<li {% if current[1] == 'projects' %}class='current'{% endif %}><a href="{{ site.baseurl }}/projects">PROJECTS</a></li>
 						<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">BLOG</a></li>
 						<li {% if current[1] == 'about.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">ABOUT</a></li>
 					</ul>
