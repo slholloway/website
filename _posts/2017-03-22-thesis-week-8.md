@@ -33,15 +33,15 @@ layout: post
 			Inventory of things that have not changed:
 		</p>
 		<p>
-			Problem: The introduction of mixed reality, a continuum of environments between reality and virtual reality, poses new challenges for interactions in both our physical and virtual worlds.	
+			<ul>Problem: The introduction of mixed reality, a continuum of environments between reality and virtual reality, poses new challenges for interactions in both our physical and virtual worlds.</ul>
 			<li>Previously focused on augmented reality and HMDs</li>
 			<li>Now shifted to ubiquitous computing environments and IoT</li>
 			<li>Both fall within ‘mixed reality’ in the middle of the virtuality continuum</li>
-			Audience: designers and technologists in order to inform usability in their designs
-			Ideology: human-centered design and usability
-			Project objectives: provide a conceptual framework and design guidelines
-			Methods: interviews, observations, rapid prototyping (as a tool to solicit feedback)
-			Deliverable: design guidelines. Previously did not define the format, current idea is “smart design toolkit” available free online
+			<ul>Audience: designers and technologists in order to inform usability in their designs</ul>
+			<ul>Ideology: human-centered design and usability</ul>
+			<ul>Project objectives: provide a conceptual framework and design guidelines</ul>
+			<ul>Methods: interviews, observations, rapid prototyping (as a tool to solicit feedback)</ul>
+			<ul>Deliverable: design guidelines. Previously did not define the format, current idea is “smart design toolkit” available free online</ul>
 		</p>
 </section>
 <section>
