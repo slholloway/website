@@ -4,7 +4,7 @@ featured: /assets/images/week-8/microsoft-future-concept-home.png
 layout: post
 ---
 
-<p>Feedback synthesis, research participants and locations.</p>
+<p>Drafted project details.</p>
 
 <section>
 	<header>
